@@ -149,7 +149,7 @@ helm install conveyor-operator mediaconveyor/k8s-operator \\
     1: {
       title: '1. ART Resources',
       desc: 'Art Queues and AI driven art reviews through agentic fetching. Art work DevOps and monitezation',
-      features: ['AI Images', 'Multi-part ART flows', 'AI Galleries', 'Automated NFT & Key Pair Authenticity checking'],
+      features: ['AI Images', 'Multi-part ART flows', 'AI Galleries', 'Automated NFT & Key Pair Authenticity checking', 'ART Books'],
       codeHeader: 'ingest_config.json',
       code: `{
   "ingest_type": "s3_bucket_trigger",
@@ -160,7 +160,7 @@ helm install conveyor-operator mediaconveyor/k8s-operator \\
 }`
     },
     2: {
-      title: '2. Hardware Setup',
+      title: '2. Atelier Setup',
       desc: 'Synology QuickSync NAC, and Apple VT GPU nodes. Automatically service CloudInit images, transposes profiles, and generates adaptive HCL Terraform artifacts.',
       features: ['Multi-pass 4K 60FPS video encoding', 'Parallel micro-chunk segmentation', 'AV1, HEVC, H.264, VP9 support', 'Per-title bitrate optimization (VMAF)'],
       codeHeader: 'transcode_profile.yaml',
@@ -176,7 +176,7 @@ outputs:
     codec: "h264"`
     },
     3: {
-      title: '3. AI Analysis & Processing',
+      title: '3. AI Creativity 2 Production Outputs',
       desc: 'Real-time extraction of metadata, automated infra and VMs, intelligent scene change detection, thumbnail prompting generation, and agentic tasks.',
       features: ['Automated synthesis', 'Automated Personalization Builds', 'Keyframe & storyboard sprite generator', 'Security classification filter'],
       codeHeader: 'ai_processor.py',
