@@ -1,21 +1,21 @@
 /* Modern Glassmorphic Design System - MediaConveyor */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
-:root {
+root {
   /* Color Palette */
-  --bg-dark: #38091d;
-  --bg-surface: rgba(42, 15, 28, 0.6);
+  --bg-dark: #091d38;
+  --bg-surface: rgba(16, 15, 42, 0.6);
   --glass-bg: rgba(255, 255, 255, 0.03);
   --glass-bg-hover: rgba(255, 255, 255, 0.06);
   --glass-border: rgba(255, 255, 255, 0.08);
   --glass-border-hover: rgba(255, 255, 255, 0.2);
   --glass-shadow: 0 16px 40px 0 rgba(0, 0, 0, 0.4);
   
-  --primary-cyan: #f45327f7;
+  --primary-cyan: #2735f4f7;
   --primary-yellow: #edf427f7;
-  --primary-blue: #fe6f4f;
-  --accent-purple: #f7a955;
-  --accent-indigo: #f16395;
+  --primary-blue: #4f72fe;
+  --accent-purple: #f255f7;
+  --accent-indigo: #8e63f1;
   --accent-emerald: #10b981;
   
   --text-main: #fbfbf8;
