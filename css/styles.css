@@ -3,7 +3,7 @@
 
 :root {
   /* Color Palette */
-  --bg-dark: #093824;
+  --bg-dark: #034704;
   --bg-surface: rgba(152, 152, 31, 0.6);
   --glass-bg: rgba(255, 255, 255, 0.03);
   --glass-bg-hover: rgba(255, 255, 255, 0.06);
@@ -15,12 +15,12 @@
   --primary-yellow: #edf427f7;
   --primary-blue: #4fecfe;
   --accent-purple: #60f755;
-  --accent-indigo: #f18463;
+  --accent-indigo: #e7cac1;
   --accent-emerald: #10b981;
   
   --text-main: #fbfbf8;
   --text-muted: #cf7b70;
-  --text-dim: #874a62;
+  --text-dim: #c198a8;
   
   --font-main: 'Inter', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
