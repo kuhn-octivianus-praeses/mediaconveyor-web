@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Development Plan 2026-2028 for infrastructure as code, artisan AI, and workstation management.">
+  <title>Development Plan 2026-2028</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Page-specific layout only. Visual styling is inherited from styles.css. */
+    .plan-main { padding-top: 7rem; }
+    .plan-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.75rem; }
+    .track-card { display: flex; flex-direction: column; gap: 1.4rem; }
+    .track-card h3 { font-size: 1.4rem; }
+    .track-card h4 { color: var(--primary-cyan); margin-bottom: .65rem; }
+    .track-card ul, .metrics-list { padding-left: 1.25rem; color: var(--text-muted); }
+    .track-card li, .metrics-list li { margin: .45rem 0; }
+    .profile-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 1rem; margin-top: 2rem; }
+    .profile-item { padding: 1rem 1.2rem; }
+    .profile-item strong { display: block; color: var(--primary-yellow); font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; margin-bottom: .35rem; }
+    .quote { font-size: 1.08rem; font-style: italic; color: var(--text-muted); text-align: center; }
+    .table-wrap { overflow-x: auto; }
+    .plan-table { width: 100%; border-collapse: collapse; min-width: 720px; }
+    .plan-table th, .plan-table td { text-align: left; padding: 1rem; border-bottom: 1px solid var(--glass-border); vertical-align: top; }
+    .plan-table th { color: var(--primary-yellow); font-size: .82rem; text-transform: uppercase; letter-spacing: .08em; }
+    .year-block { padding-top: 1rem; border-top: 1px solid var(--glass-border); }
+    .footer-note { max-width: 800px; }
+    @media (max-width: 768px) { .plan-main { padding-top: 5.5rem; } }
+  </style>
+</head>
+<body>
+  <div class="ambient-bg" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <header class="header">
+    <nav class="nav-container glass-panel" aria-label="Primary navigation">
+      <a class="brand" href="#top"><span class="brand-icon" aria-hidden="true">◆</span><span>Development Plan</span></a>
+      <ul class="nav-links">
+        <li><a class="nav-link" href="#vision">Vision</a></li>
+        <li><a class="nav-link" href="#tracks">Tracks</a></li>
+        <li><a class="nav-link" href="#practice">Practice</a></li>
+        <li><a class="nav-link" href="#metrics">Metrics</a></li>
+      </ul>
+      <div class="nav-actions"><a class="btn btn-glass btn-sm" href="#tracks">Explore plan</a></div>
+    </nav>
+  </header>
+
+  <main id="top" class="plan-main">
+    <section class="hero">
+      <div class="badge"><span class="badge-dot"></span>Two-Year Horizon</div>
+      <h1 class="hero-title gradient-text">Development Plan<br>2026-2028</h1>
+      <p class="hero-subtitle">A multidisciplinary roadmap connecting infrastructure automation, AI systems design, workstation orchestration, and sustained creative practice.</p>
+      <div class="profile-strip">
+        <div class="profile-item glass-card"><strong>Principal</strong>Kuhn Octivianus Praeses</div>
+        <div class="profile-item glass-card"><strong>Context</strong>IT Architect | Docker &amp; Linux Infrastructure Specialist | Microsoft Intune Evangelist</div>
+        <div class="profile-item glass-card"><strong>Background</strong>Wisconsin Madison North University, <em>cum laude</em> in Art History, Mathematics, Computational Logics, and AI Expertise</div>
+      </div>
+    </section>
+
+    <section id="vision" class="section">
+      <div class="section-header">
+        <span class="section-tag">Strategic Vision</span>
+        <h2 class="section-title">Technical depth meets creative synthesis</h2>
+        <p class="section-desc">Leverage interdisciplinary training to bridge infrastructure automation, AI systems design, and workstation orchestration while maintaining artistic practice as a source of cognitive renewal.</p>
+      </div>
+    </section>
+
+    <section id="tracks" class="section">
+      <div class="section-header">
+        <span class="section-tag">Development Tracks</span>
+        <h2 class="section-title">Three coordinated paths</h2>
+        <p class="section-desc">Each track progresses from core proficiency and repeatable patterns toward enterprise-scale applications.</p>
+      </div>
+
+      <div class="plan-grid">
+        <article class="glass-card track-card">
+          <div>
+            <span class="section-tag">Track I</span>
+            <h3>Infrastructure as Code</h3>
+            <p class="section-desc"><em>The Architect's Foundation</em></p>
+          </div>
+          <div class="year-block">
+            <h4>Year One: 2026-Q4 2027</h4>
+            <ul>
+              <li><strong>Core Proficiency</strong></li>
+              <li>Terraform modularisation patterns and state management at scale</li>
+              <li>Pulumi or CDK for TypeScript-first infrastructure workflows</li>
+              <li>Cross-platform CI/CD with GitHub Actions and GitLab Runners</li>
+              <li><strong>Advanced Topics</strong></li>
+              <li>Policy-as-code with Open Policy Agent and Sentinel</li>
+              <li>Immutable infrastructure principles and ephemeral compute patterns</li>
+            </ul>
+          </div>
+          <div class="year-block">
+            <h4>Year Two: Q1 2027-Q4 2028</h4>
+            <ul>
+              <li>Multi-cloud deployments with cost optimisation layers</li>
+              <li>Terraform state security and disaster recovery playbooks</li>
+              <li>IaC audit frameworks for compliance-driven architectures</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="glass-card track-card">
+          <div>
+            <span class="section-tag">Track II</span>
+            <h3>Artisan AI</h3>
+            <p class="section-desc"><em>The Sage's Workshop</em></p>
+          </div>
+          <div class="year-block">
+            <h4>Year One: 2026-Q4 2027</h4>
+            <ul>
+              <li><strong>Core Proficiency</strong></li>
+              <li>LLM inference pipelines via vLLM, llama.cpp, and GGUF quantisation</li>
+              <li>RAG architectures with vector databases and embedding strategies</li>
+              <li><strong>Specialised Skills</strong></li>
+              <li>Fine-tuning small language models for domain-specific tasks</li>
+              <li>AI observability across prompt tracing, latency, and cost</li>
+            </ul>
+          </div>
+          <div class="year-block">
+            <h4>Year Two: Q1 2027-Q4 2028</h4>
+            <ul>
+              <li>Multimodal systems integrating vision and text in production</li>
+              <li>Agentic workflows using task decomposition and tool orchestration</li>
+              <li>Autonomous agent frameworks such as LangGraph or AutoGen</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="glass-card track-card">
+          <div>
+            <span class="section-tag">Track III</span>
+            <h3>Workstation Management</h3>
+            <p class="section-desc"><em>The Craftsman's Guild</em></p>
+          </div>
+          <div class="year-block">
+            <h4>Year One: 2026-Q4 2027</h4>
+            <ul>
+              <li><strong>Core Proficiency</strong></li>
+              <li>Microsoft Intune deep dive across applications and compliance policies</li>
+              <li>macOS and Linux device management via Jamf or MDM alternatives</li>
+              <li><strong>Artisan Touchpoints</strong></li>
+              <li>Developer workstation automation for creative and technical hybrid use cases</li>
+              <li>iPad as a first-class development tool through side-loading and remote pairing</li>
+            </ul>
+          </div>
+          <div class="year-block">
+            <h4>Year Two: Q1 2027-Q4 2028</h4>
+            <ul>
+              <li>Golden image pipelines with immutable snapshots</li>
+              <li>Device identity management and federated authentication for hybrid workforces</li>
+              <li>Workstation telemetry translated into AI-assisted policy recommendations</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="practice" class="section">
+      <div class="section-header">
+        <span class="section-tag">Cross-Cutting Practice</span>
+        <h2 class="section-title">An ongoing operating rhythm</h2>
+        <p class="quote">“We should not forget all that is truly important in our pursuit of knowledge.”<br><small>Adaptation of <em>Hamlet</em>, Act 1, Scene 5</small></p>
+      </div>
+      <div class="glass-panel pipeline-container table-wrap">
+        <table class="plan-table">
+          <thead><tr><th>Domain</th><th>Quarterly Rhythm</th><th>Deliverables</th></tr></thead>
+          <tbody>
+            <tr><td>Technical Depth</td><td>Monthly deep-dive into emerging toolset</td><td>RFC-style notes published internally</td></tr>
+            <tr><td>Creative Practice (Oil/Acrylic/Charcoal)</td><td>Bi-weekly studio sessions</td><td>Portfolio pieces and exhibitions if applicable</td></tr>
+            <tr><td>Teaching &amp; Evangelism</td><td>Quarterly workshops or keynotes</td><td>Recorded talks and blog posts for public consumption</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="metrics" class="section">
+      <div class="section-header">
+        <span class="section-tag">Success Metrics</span>
+        <h2 class="section-title">Evidence of progress</h2>
+      </div>
+      <div class="hero-metrics">
+        <article class="metric-card glass-card"><div class="metric-value">≥95%</div><div class="metric-label">IaC zero-downtime deploy ratio on test architectures</div></article>
+        <article class="metric-card glass-card"><div class="metric-value">1</div><div class="metric-label">Production AI inference pipeline with measurable business value</div></article>
+        <article class="metric-card glass-card"><div class="metric-value">3-5</div><div class="metric-label">Documented workstation client engagements or proof-of-concept environments</div></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand footer-note">
+          <a class="brand" href="#top"><span class="brand-icon" aria-hidden="true">◆</span><span>Development Plan 2026-2028</span></a>
+          <p><em>Shakespeare, Sonnet XII:</em> “Then be not sad that I am in a world where time doth steal upon us.” Though we work with diligence and purpose today.</p>
+        </div>
+      </div>
+      <div class="footer-bottom"><span>Development Plan</span><a class="nav-link" href="#top">Back to top</a></div>
+    </div>
+  </footer>
+</body>
+</html>
