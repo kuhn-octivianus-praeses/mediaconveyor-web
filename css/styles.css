@@ -3,24 +3,24 @@
 
 :root {
   /* Color Palette */
-  --bg-dark: #021453;
-  --bg-surface: rgba(5, 56, 97, 0.6);
+  --bg-dark: #102f05;
+  --bg-surface: rgba(5, 97, 63, 0.6);
   --glass-bg: rgba(255, 255, 255, 0.03);
   --glass-bg-hover: rgba(255, 255, 255, 0.06);
   --glass-border: rgba(255, 255, 255, 0.08);
   --glass-border-hover: rgba(255, 255, 255, 0.2);
   --glass-shadow: 0 16px 40px 0 rgba(0, 0, 0, 0.4);
   
-  --primary-cyan: #7b6d11f7;
+  --primary-cyan: #ece8eff7;
   --primary-yellow: #edf427f7;
   --primary-blue: #4fecfe;
-  --accent-purple: #e755f7;
+  --accent-purple: #be55f7;
   --accent-indigo: #e7cac1;
-  --accent-emerald: #1056b9;
+  --accent-emerald: #10b986;
   
   --text-main: #fbfbf8;
   --text-muted: #e2ea7a;
-  --text-dim: #dbbb85;
+  --text-dim: #dbd885;
   
   --font-main: 'Inter', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
