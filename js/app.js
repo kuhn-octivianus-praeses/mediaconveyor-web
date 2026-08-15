@@ -107,7 +107,7 @@ mediaconveyor logs --job job_8f92ab41 --follow`
       id: 'mediaconveyor-python-sdk',
       name: 'mediaconveyor-python',
       category: 'sdks',
-      description: 'Python client and AI vision plugin for object detection, automated subtitle extraction (Whisper), and frame analysis in conveyor workflows.',
+      description: 'Python client and AI vision plugin for object detection, and frame analysis in conveyor workflows.',
       language: 'Python',
       langClass: 'lang-python',
       stars: 520,
@@ -162,7 +162,7 @@ helm install conveyor-operator mediaconveyor/k8s-operator \\
     2: {
       title: '2. Atelier Setup',
       desc: 'Synology QuickSync NAC, and Apple VT GPU nodes. Automatically service CloudInit images, transposes profiles, and generates adaptive HCL Terraform artifacts.',
-      features: ['Multi-pass 4K 60FPS video encoding', 'Parallel micro-chunk segmentation', 'AV1, HEVC, H.264, VP9 support', 'Per-title bitrate optimization (VMAF)'],
+      features: ['Multi-pass 4K 60FPS video encoding', 'Fully Equipped darkroom analogue prints', 'AV1, HEVC, H.264, VP9 support'],
       codeHeader: 'transcode_profile.yaml',
       code: `version: "2.4"
 profile: "kuhn_hls"
